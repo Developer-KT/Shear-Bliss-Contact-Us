@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&family=Nunito+Sans:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    color: rgb(231, 231, 231);
+    background-color: white;
+}
+
+.logo img {
+    margin-top: 18px;
+    margin-left: 44px;
+    width: 100px;
+    height: 55px;
+}
+
+.menu-tabs {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding-right: 74px;
+    padding-top: 12.5px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 13px;
+    letter-spacing: 3.5px;
+    color: black;
+}
+
+.tab {
+    padding: 16px;
+    width: fit-content;
+}
+
+.tab {
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+.map-container {
+    margin-top: 100px;
+}
+.map-container iframe {
+    width: 100%;
+    height: 72vh;
+}
+
+
+.contact-section {
+    margin-top: 150px;
+    padding-left: 125px;
+    display: flex;
+    font-family: 'Montserrat';
+}
+
+.form {
+    width: 400px;
+}
+
+form {
+    display: grid;
+}
+
+.input {
+    margin: 10px 0;
+    height: 52px;
+    padding: 17px;
+    border: 1.5px black solid;
+    font-family: 'Montserrat';
+}
+.input:focus {
+    outline: none;
+}
+.message {
+    margin: 10px 0;
+    padding: 17px;
+    border: 1.5px black solid;
+    font-family: 'Montserrat';
+}
+.message:focus {
+    outline: none;
+}
+
+.send-button {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    letter-spacing: 3.5px;
+    font-size: 15px;
+    width: 180px;
+    height: 50px;
+}
+
+
+
+.contact {
+    margin-left: 120px;
+}
+.hours {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    line-height: 25px;
+}
+.hours h1 {
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.location img {
+    width: 20px;
+    height: 20px;
+}
+
+.location {
+    display: flex;
+}
+.location p {
+    padding-left: 20px;
+}
+
+.contact-det {
+    display: flex;
+    margin-top: 20px;
+}
+.details p {
+    padding-left: 20px;
+}
+
+.contact-det img {
+    width: 20px;
+    height: 27.5px;
+}
+
+.phone-det {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.phone-det img {
+    width: 17.5px;
+    height: 17.5px;
+}
+
+
+
+footer {
+    height: 310px;
+    background-color: black;
+    margin-top: 150px;
+}
